@@ -1,0 +1,40 @@
+@import "../../../abstract/constants.scss";
+
+.ntfsDiscover {
+    background: linear-gradient(88deg, #0500FA 11.52%, #E01E5A 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.discoverMoney {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coloredAdditional {
+    background: $color-additional;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.colored {
+    color: $color-number;
+}
+
+.moneyBlock {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.moneyBlockDescription {
+    list-style: none;
+}
+
+.line {
+    width: $content-width;
+    height: 1px;
+    background: rgba(231, 231, 231, 0.24);
+}

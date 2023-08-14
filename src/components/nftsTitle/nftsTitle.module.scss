@@ -1,0 +1,27 @@
+@import "../../abstract/constants.scss";
+@import "../../abstract/mixins.scss";
+
+.nfts {
+    @include font(9.6rem, 700, 8.0rem);
+    letter-spacing: -1.344px;
+    background: $color-nfts;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    bottom: 45px;
+}
+
+.titleBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 84px;
+}
