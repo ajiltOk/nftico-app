@@ -1,0 +1,26 @@
+@import "../abstract/constants.scss";
+@import "../abstract/mixins.scss";
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: Outfit, Verdana, sans-serif;
+}
+
+h1 {
+    @include font(6.4rem, 700, 8.0rem);
+    letter-spacing: -0.896px;
+    color: $color-text-primary;
+}
+
+h2 {
+    @include font(4.4rem, 500, 4.8rem);
+    color: $color-text-primary;
+}
+
+h3 {
+    @include font(2.4rem, 500, 2.8rem); 
+}

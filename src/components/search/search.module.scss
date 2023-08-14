@@ -1,0 +1,22 @@
+@import "../../abstract/constants.scss";
+@import "../../abstract/mixins.scss";
+
+.inputSearch {
+    width: 185px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(231, 231, 231, 0.40);
+    background: $color-primary;
+}
+
+.search {
+    color: rgba(255, 255, 255, 0.59);
+    @include font(1.6rem, 400, 2.0rem); 
+    padding: 12px 0 12px 16px;
+}
+
+.glass {
+    padding: 12px 12px 12px 0;
+}
